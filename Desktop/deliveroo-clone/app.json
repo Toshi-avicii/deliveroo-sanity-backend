@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Deliveroo Clone",
+    "slug": "deliveroo-clone",
+    "description": "This is a clone of Deliveroo app, this is a practice project by Tushar Arora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/deliveroo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.toshii.deliverooclone",
+    "splash": {
+      "image": "./assets/deliveroo-splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifer": "com.toshii.deliverooclone",
+      "bundleIdentifier": "com.toshii.deliverooclone"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.toshii.deliverooclone"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ee66ca2-30cc-41f6-bbee-75c11c3aabe1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4ee66ca2-30cc-41f6-bbee-75c11c3aabe1"
+    }
+  }
+}
